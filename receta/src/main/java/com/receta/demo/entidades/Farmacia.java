@@ -11,7 +11,7 @@ public class Farmacia {
     @Id
     Integer idFarmacia;
     
-    List<Medicina> Medicamentos;
+    
 
     public Integer getIdFarmacia() {
         return idFarmacia;
@@ -21,13 +21,9 @@ public class Farmacia {
         this.idFarmacia = idFarmacia;
     }
 
-    public List<Medicina> getMedicamentos() {
-        return Medicamentos;
-    }
+   
 
-    public void setMedicamentos(List<Medicina> Medicamentos) {
-        this.Medicamentos = Medicamentos;
-    }
+    
 
         
 }
